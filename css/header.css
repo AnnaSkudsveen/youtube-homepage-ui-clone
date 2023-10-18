@@ -1,0 +1,46 @@
+header {
+    background-color: #0F0F0F;
+    height: 56px;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    flex-shrink: 0;
+    align-items: center;
+    padding: 0.5rem;
+}
+
+.menu-btn-and-logo {
+    color: white;
+    display: flex;
+    gap: 1.25rem;
+}
+
+.menu-btn-and-logo div {
+    height: 20px;
+}
+
+.settings-btn {
+    background-color: #0f0f0f;
+    color: white;
+    border: none;
+}
+
+.signin-btn {
+    background-color: #0F0F0F;
+    border: 1px solid #3f3f3f;
+    color: #3ea6ff;
+    border-radius: 20px;
+    padding: .5rem;
+    font-weight: 500;
+    display: inline-flex;
+    gap: .5rem;
+    align-items: center;
+    text-transform: capitalize;
+    font-size: 14px;
+}
+
+.signin-btn:hover {
+    background-color: #263850;
+    border-color: transparent;
+    cursor: pointer;
+}
